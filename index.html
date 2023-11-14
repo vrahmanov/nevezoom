@@ -1,0 +1,94 @@
+</div></article></div>
+<!doctype html>
+<title>nevezoom</title>
+<style>
+    body {
+        text-align: center;
+        padding: 110px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    body {
+        font: 20px Helvetica, sans-serif;
+        color: #333;
+    }
+
+    article {
+        display: block;
+        text-align: left;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    a {
+        color: #dc8100;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+</style>
+<article>
+    <h1>
+        לינקים בית ספריים - נווה זמר
+    </h1>
+    <ul id="myMenu">
+        <li>
+            <a href="https://lgn.edu.gov.il/nidp/saml2/sso?id=EduCombinedAuthSms&sid=0&option=credential&sid=0">חנאן מרעי</a>
+        </li>
+        <li>
+            <a href="https://edu-il.zoom.us/j/9346025276#success">מורן</a>
+        </li>
+        <li>
+            <a href="https://edu-il.zoom.us/j/8426249697">מלני</a>
+        </li>
+        <li>
+            <a href="https://meet.google.com/fac-dkrf-rni">ספיר</a>
+        </li>
+        <li>
+            <a href="https://edu-il.zoom.us/j/83886554983">ביאנקה</a>
+        </li>
+        <li>
+            <a href="https://lgn.edu.gov.il/nidp/saml2/sso?id=EduCombinedAuthSms&sid=1&option=credential&sid=1">מירי</a>
+        </li>
+        <li>
+            <a href="https://edu-il.zoom.us/j/3510394903#success">צפי</a>
+        </li>
+    </ul>
+</body></html><input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+<footer style="display:flex;justify-content:center">
+    <div class="HeartApollorion_note__3CO5t">
+        <p>
+            <span>
+                <a href="https://github.com/vrahmanov/nevezoom">View in GitHub</a>
+            </span>
+            • <span>vladir</span>
+            • 
+            <span>
+                Made with <span>❤</span>
+            </span>
+        </p>
+    </div>
+</footer>
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("mySearch");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myMenu");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
